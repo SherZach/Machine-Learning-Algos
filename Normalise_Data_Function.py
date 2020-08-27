@@ -1,6 +1,6 @@
 import numpy as np
 
-def normalise(X, normalisation_type = "standardisation"):
+def normalise(X, normalisation_type="standardisation"):
     
     normalised_X = np.zeros_like(X)
 
