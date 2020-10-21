@@ -2,4 +2,4 @@
 *.csv
 
 # Ignore data folder
-\ML_Project_2\Data
+/ML_Project_2/Data
