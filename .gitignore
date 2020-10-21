@@ -1,0 +1,5 @@
+# Ignore csv files
+*.csv
+
+# Ignore data folder
+\ML_Project_2\Data
