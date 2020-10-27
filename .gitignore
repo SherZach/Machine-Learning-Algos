@@ -1,5 +1,7 @@
 # Ignore csv files
 *.csv
+*.data
+*.info
 
 # Ignore data folder
 Data
