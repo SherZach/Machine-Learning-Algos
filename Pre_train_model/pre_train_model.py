@@ -18,7 +18,7 @@ model_list = [
 
 for model in model_list:    
     # normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],  std=[0.229, 0.224, 0.225])
-    image = Image.open("Pre_train_model\dog1.jpg")
+    image = Image.open("Pre_train_model\Radiator2.jpg")
     # image.show()
     transform = T.Compose([T.Resize(256), T.CenterCrop(224), T.ToTensor()])
     tens_img = transform(image)
