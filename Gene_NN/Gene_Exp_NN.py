@@ -61,6 +61,28 @@ test_loader = torch.utils.data.DataLoader(
 #%%
 # create NN class
 
+class NN(torch.nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.layer1 = torch.nn.Linear(54676, 54676 * 20)
+        self.layer2 = torch.nn.Linear(54676 * 20, 54676 * 5 / 2)
+        self.layer3 = torch.nn.Linear(54676 * 5 / 2,54676 * 5 / 128)
+        self.layer4 = torch.nn.Linear(54676 * 5 / 128, 6)
+
+    def forward(self, x):
+        # x = x.view(-1, 6)
+        x = self.layer1(x)
+        x = F.relu(x)
+        x = self.layer2(x)
+        x = F.relu(x)
+        x = self.layer3(x)
+        x = F.relu(x)
+        x = self.layer4(x)
+        x = F.softmax(x)
+        return x
+
+nn = NN()
+
 #%%
 # Train the NN
 learning_rate = 0.1
