@@ -14,6 +14,7 @@ raw_data = pd.read_csv("BC_gene_data.csv")
 raw_data["type"] = raw_data["type"].astype("category").cat.codes
 raw_data["type"] = raw_data["type"].astype("int64")
 print(raw_data["type"].unique())
+print(raw_data.shape)
 
 #%%
 # convert to a pytorch dataset
@@ -32,6 +33,7 @@ class BCGeneDataset(Dataset):
 data = BCGeneDataset(raw_data)
 print(data[10])
 print(len(data))
+# print(data)
 
 #%%
 # split into test, train, validation
@@ -64,13 +66,14 @@ test_loader = torch.utils.data.DataLoader(
 class NN(torch.nn.Module):
     def __init__(self):
         super().__init__()
-        self.layer1 = torch.nn.Linear(54676, 54676 * 20)
-        self.layer2 = torch.nn.Linear(54676 * 20, 54676 * 5 / 2)
-        self.layer3 = torch.nn.Linear(54676 * 5 / 2,54676 * 5 / 128)
-        self.layer4 = torch.nn.Linear(54676 * 5 / 128, 6)
+        self.layer1 = torch.nn.Linear(54676, 54676)
+        self.layer2 = torch.nn.Linear(54676, 54676/4)
+        self.layer3 = torch.nn.Linear(54676/4, 54676/ 128)
+        self.layer4 = torch.nn.Linear(54676/128, 6)
 
     def forward(self, x):
-        # x = x.view(-1, 6)
+        x = x.to('cuda')
+        x = x.flatten()
         x = self.layer1(x)
         x = F.relu(x)
         x = self.layer2(x)

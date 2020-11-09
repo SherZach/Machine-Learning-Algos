@@ -4,4 +4,4 @@
 *.info
 
 # Ignore data folder
-Data
+../MNIST-data/MNIST

@@ -13,12 +13,13 @@ model_list = [
     ("Resnext50_32x4d", models.resnext50_32x4d(pretrained=True)),
     ("Wide_resnet50_2", models.wide_resnet50_2(pretrained=True)),
     ("Mnasnet1_0", models.mnasnet1_0(pretrained=True)),
-    ("Shufflenet", models.shufflenet_v2_x1_0(pretrained=True))
+    ("Shufflenet", models.shufflenet_v2_x1_0(pretrained=True)),
+    ("Vgg16", models.vgg16(pretrained=True))
 ]
 
 for model in model_list:    
     # normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],  std=[0.229, 0.224, 0.225])
-    image = Image.open("Pre_train_model\Radiator2.jpg")
+    image = Image.open("Radiator2.jpg")
     # image.show()
     transform = T.Compose([T.Resize(256), T.CenterCrop(224), T.ToTensor()])
     tens_img = transform(image)
@@ -29,7 +30,7 @@ for model in model_list:
     model[1].eval()
 
     # Get a list of each class name from the imagenet classes
-    with open('Pre_train_model\imagenet_classes.txt') as labels:
+    with open('imagenet_classes.txt') as labels:
         classes = [i.strip() for i in labels.readlines()]
 
     # Run model
@@ -41,6 +42,6 @@ for model in model_list:
     results = [(percentage[i].item(), classes[i]) for i, x in enumerate(percentage)]
     results.sort(reverse=True)
 
-    print(model[0], "results:\n\n", results[0:10])
+    print(model[0], " top 5 results:\n\n", results[0:5])
     print()
 

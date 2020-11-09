@@ -103,6 +103,7 @@ criterion = torch.nn.CrossEntropyLoss()
 writer = SummaryWriter(log_dir='../runs')  
 
 def train(model, epochs):
+    model.to("cuda") # run on gpu
     model.train()                                  # put the model into training mode (more on this later)
     for epoch in range(epochs):
         for idx, minibatch in enumerate(train_loader):
