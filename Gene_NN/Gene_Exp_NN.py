@@ -43,7 +43,7 @@ print(len(data))
 train_data, valid_data, test_data = torch.utils.data.random_split(data, [121, 15, 15])
 
 # Create dataloaders
-batch_size = 60
+batch_size = 23
 
 train_loader = torch.utils.data.DataLoader( 
     train_data, 
@@ -69,7 +69,7 @@ test_loader = torch.utils.data.DataLoader(
 class NN(torch.nn.Module):
     def __init__(self):
         super().__init__()
-        self.layer1 = torch.nn.Linear(54676, 2048)
+        self.layer1 = torch.nn.Linear(len(raw_data.columns), 2048)
         self.batch1 = torch.nn.BatchNorm1d(2048)
         self.layer2 = torch.nn.Linear(2048, 512)
         self.batch2 = torch.nn.BatchNorm1d(512)
@@ -78,7 +78,7 @@ class NN(torch.nn.Module):
         self.layer4 = torch.nn.Linear(128, 6)
 
     def forward(self, x):
-        # x = x.flatten()
+        x = x.view(-1, len(raw_data.columns))
         x = F.relu(self.batch1(self.layer1(x)))
         x = F.relu(self.batch2(self.layer2(x)))
         x = F.relu(self.batch3(self.layer3(x)))
@@ -89,9 +89,9 @@ class NN(torch.nn.Module):
 
 #%%
 nn = NN() # Initialise NN
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") #train on gpu
-nn.to(device)
-learning_rate = 0.1 # Set learning rate
+# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") #train on gpu
+# nn.to(device)
+learning_rate = 0.01 # Set learning rate
 
 # Create the optimiser (Adam)
 optimiser = torch.optim.Adam(              
@@ -103,7 +103,7 @@ optimiser = torch.optim.Adam(
 criterion = torch.nn.CrossEntropyLoss()  
 
 # Train the model
-def train(model, epochs):                              # run on gpu
+def train(model, epochs):
     model.train()                                  # training mode
     for epoch in range(epochs):
         for idx, minibatch in enumerate(train_loader):
@@ -116,3 +116,21 @@ def train(model, epochs):                              # run on gpu
             optimiser.step()                       # update the model's parameters
 
 train(nn, 8)
+
+#%%
+# test on validation data
+            
+def test(model, dataloader, dataset):
+    num_correct = 0
+    num_examples = len(dataset)                       # test DATA not test LOADER
+    for inputs, labels in dataloader:                  # for all exampls, over all mini-batches in the test dataset
+        predictions = model(inputs)
+        predictions = torch.max(predictions, axis=1)    # reduce to find max indices along direction which column varies
+        predictions = predictions[1]                    # torch.max returns (values, indices)
+        num_correct += int(sum(predictions == labels))
+    percent_correct = num_correct / num_examples * 100
+    print('Accuracy:', percent_correct)
+    
+test(nn, valid_loader, valid_data)
+test(nn, test_loader, test_data)
+# NEED F1 SCORE!!
