@@ -10,12 +10,15 @@ raw_data = pd.read_csv("BC_gene_data.csv")
 
 #%%
 
-# convert class labels to categories and to int64s
+raw_data.drop(labels="samples", axis=1, inplace=True)
+# convert class labels to categories and to int64s, convert rest of data to float32
 raw_data["type"] = raw_data["type"].astype("category").cat.codes
+raw_data = raw_data.astype("float32")
 raw_data["type"] = raw_data["type"].astype("int64")
 print(raw_data["type"].unique())
 print(raw_data.shape)
 
+# print(raw_data["1007_s_at"].dtype)
 #%%
 # convert to a pytorch dataset
 class BCGeneDataset(Dataset):
@@ -40,7 +43,7 @@ print(len(data))
 train_data, valid_data, test_data = torch.utils.data.random_split(data, [121, 15, 15])
 
 # Create dataloaders
-batch_size = 30
+batch_size = 60
 
 train_loader = torch.utils.data.DataLoader( 
     train_data, 
@@ -66,29 +69,29 @@ test_loader = torch.utils.data.DataLoader(
 class NN(torch.nn.Module):
     def __init__(self):
         super().__init__()
-        self.layer1 = torch.nn.Linear(54676, 54676)
-        self.layer2 = torch.nn.Linear(54676, 54676/4)
-        self.layer3 = torch.nn.Linear(54676/4, 54676/ 128)
-        self.layer4 = torch.nn.Linear(54676/128, 6)
+        self.layer1 = torch.nn.Linear(54676, 2048)
+        self.batch1 = torch.nn.BatchNorm1d(2048)
+        self.layer2 = torch.nn.Linear(2048, 512)
+        self.batch2 = torch.nn.BatchNorm1d(512)
+        self.layer3 = torch.nn.Linear(512, 128)
+        self.batch3 = torch.nn.BatchNorm1d(128)
+        self.layer4 = torch.nn.Linear(128, 6)
 
     def forward(self, x):
-        x = x.to('cuda')
-        x = x.flatten()
-        x = self.layer1(x)
-        x = F.relu(x)
-        x = self.layer2(x)
-        x = F.relu(x)
-        x = self.layer3(x)
-        x = F.relu(x)
-        x = self.layer4(x)
-        x = F.softmax(x)
+        # x = x.flatten()
+        x = F.relu(self.batch1(self.layer1(x)))
+        x = F.relu(self.batch2(self.layer2(x)))
+        x = F.relu(self.batch3(self.layer3(x)))
+        x = F.softmax(self.layer4(x))
         return x
 
-nn = NN()
+
 
 #%%
-# Train the NN
-learning_rate = 0.1
+nn = NN() # Initialise NN
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu") #train on gpu
+nn.to(device)
+learning_rate = 0.1 # Set learning rate
 
 # Create the optimiser (Adam)
 optimiser = torch.optim.Adam(              
@@ -98,3 +101,18 @@ optimiser = torch.optim.Adam(
 
 # Create our criterion
 criterion = torch.nn.CrossEntropyLoss()  
+
+# Train the model
+def train(model, epochs):                              # run on gpu
+    model.train()                                  # training mode
+    for epoch in range(epochs):
+        for idx, minibatch in enumerate(train_loader):
+            inputs, labels = minibatch
+            prediction = model(inputs)             # pass the data forward through the model
+            loss = criterion(prediction, labels)   # compute the loss
+            print('Epoch:', epoch, '\tBatch:', idx, '\tLoss:', loss)
+            optimiser.zero_grad()                  # reset the gradients attribute of each of the model's params to zero
+            loss.backward()                        # backward pass to compute and set all of the model param's gradients
+            optimiser.step()                       # update the model's parameters
+
+train(nn, 8)
