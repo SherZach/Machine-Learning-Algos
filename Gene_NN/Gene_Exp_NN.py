@@ -3,6 +3,7 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset
 import torch.nn.functional as F 
+import sklearn.metrics
 
 # read in data
 raw_data = pd.read_csv("BC_gene_data.csv")
