@@ -45,3 +45,58 @@
     transform: rotate(360deg);
   }
 }
+
+.container_pink {
+  display: flex; /* or inline-flex */
+  background-color: pink;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  justify-content: space-evenly;
+}
+.item {
+  background-color: orange;
+  height: 100px;
+  width: 25%;
+}
+.bottom_box {
+  display: flex; /* or inline-flex */
+  background-color: orange;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25em;
+  width: 50%;
+  align-items: stretch;
+}
+.pink_bot_box {
+  order: 2; /* default is 0 */
+  background-color: pink;
+  width: 33%;
+  align-content: space-between;
+  margin: 0.5em;
+  flex-direction:column;
+}
+.green_box {
+  /* display: flex; */
+  background-color: green;
+  margin: 0.5em;
+}
+.blue_box {
+  /* display: flex; */
+  background-color: blue;
+  margin: 0.5em;
+}
+
+.bottom_blue_box {
+  display: flex; /* or inline-flex */
+  background-color: blue;
+  width: 50%;
+  margin: 1em;
+}
+
+.big_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
