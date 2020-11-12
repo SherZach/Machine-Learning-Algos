@@ -66,8 +66,9 @@
   justify-content: flex-start;
   align-items: center;
   height: 25em;
-  width: 50%;
+  width: 40%;
   align-items: stretch;
+  margin: 0px;
 }
 .pink_bot_box {
   order: 2; /* default is 0 */
@@ -91,12 +92,13 @@
 .bottom_blue_box {
   display: flex; /* or inline-flex */
   background-color: blue;
-  width: 50%;
+  width: 40%;
+  height: 25em;
   margin: 1em;
 }
 
 .big_box {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  flex-wrap: wrap;
 }

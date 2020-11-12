@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Simple from './Test.js'
 import { jsx, css } from "@emotion/core"
 /** @jsx jsx */
 /** @jsxRuntime classic */
@@ -11,6 +12,10 @@ const App = () => {
   return (
     <div className="App">
       <header>
+        <div>
+          <p>Test</p>
+          <Simple />
+        </div>
         <div className="container_pink">
           <div className="item">
           </div>
@@ -18,8 +23,8 @@ const App = () => {
           </div>
         </div>   
       </header>
-      <body>
-        <div classname="big_box">
+        <div classname="big_box"> 
+        {/* Start of body */}
           <div className="bottom_box">
             <div className="pink_bot_box">
               <div className="green_box">box</div>
@@ -31,10 +36,9 @@ const App = () => {
             </div>
           </div>
           <div className="bottom_blue_box">
-            box
           </div>
+          {/* End of body */}
         </div>
-      </body>
     </div>
   );
 }
