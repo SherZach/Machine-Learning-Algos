@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Simple from './Test.js'
-import { jsx, css } from "@emotion/core"
+import { jsx, css } from "@emotion/core";
 /** @jsx jsx */
 /** @jsxRuntime classic */
 
