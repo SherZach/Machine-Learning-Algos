@@ -29,3 +29,6 @@ for i in range(len(total_df)):
             f.write(r.content)
 # Do not run this cell again unless you want to waste 10 minutes!
 #%%
+from PIL import Image
+
+# Convert all donwloaded images into PIL images
