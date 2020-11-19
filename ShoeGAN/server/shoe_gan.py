@@ -5,6 +5,8 @@ import glob
 import os
 import numpy as np
 from PIL import Image
+import torch
+from torchvision import transforms as T
 
 
 path = r'C:\Users\gobli\Documents\AI CORE\Machine-Learning-Algos\ShoeGAN\server\data'
@@ -55,8 +57,9 @@ img_list = [img.resize((int(med_width), int(med_height))) for img in img_list]
 
 
 #%%
-# Convert dataset to pytorch dataset
-
+# Convert to a list of tensors
+transform = T.ToTensor()
+img_tensors = [transform(img) for img in img_list]
 
 
 #%%
