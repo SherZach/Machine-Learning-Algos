@@ -7,6 +7,7 @@ import numpy as np
 from PIL import Image
 import torch
 from torchvision import transforms as T
+import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt  
 
@@ -69,7 +70,7 @@ print(img_tensors[2].shape)
 
 #%%
 # Set up discriminator
-class discriminator(torch.nn.Module):
+class Discriminator(torch.nn.Module):
     def __init__(self):
         super().__init__()
         self.conv1 = torch.nn.Conv2d(3, 64, kernel_size=4, stride=2, padding=1) #1x28x28-> 64x14x14
@@ -86,7 +87,7 @@ class discriminator(torch.nn.Module):
         return x
 
 # Set up generator
-class generator(torch.nn.Module):
+class Generator(torch.nn.Module):
     def __init__(self):
         super().__init__()
         self.dense1 = torch.nn.Linear(128, 256)
@@ -107,6 +108,21 @@ class generator(torch.nn.Module):
         x = F.relu(self.bn4(self.uconv1(x)))
         x = F.sigmoid(self.uconv2(x))
         return x
+g = Generator() 
+batch_size = 16
+latent_vec_size = 
+ran_batch = torch.rand(batch_size, latent_vec_size)
+fake = g(ran_batch)
+print(fake.shape)
+
+#%%
+
+# function to show image from tensor
+def img_show(tens):
+    tens = torch.squeeze(tens)
+    trans = T.ToPILImage()
+    img = trans(tens)
+    img.show()
 
 # ADJUST VALUES TO GE THE RIGHT SHAPE: (3, 580, 600)
 #%%
@@ -131,3 +147,4 @@ ax.set_xlabel('Epoch')
 ax.set_ylabel('Cost')
 ax.set_xlim(0, no_epochs)
 plt.show()
+# %%
