@@ -8,6 +8,7 @@ from PIL import Image
 import torch
 from torchvision import transforms as T
 from torch.utils.data import DataLoader
+import matplotlib.pyplot as plt  
 
 
 path = r'C:\Users\gobli\Documents\AI CORE\Machine-Learning-Algos\ShoeGAN\server\data'
@@ -64,14 +65,14 @@ img_tensors = [transform(img) for img in img_list]
 # get data loader
 
 train_loader = DataLoader(img_tensors, shuffle=True, batch_size=16)
-
+print(img_tensors[2].shape)
 
 #%%
 # Set up discriminator
 class discriminator(torch.nn.Module):
     def __init__(self):
         super().__init__()
-        self.conv1 = torch.nn.Conv2d(1, 64, kernel_size=4, stride=2, padding=1) #1x28x28-> 64x14x14
+        self.conv1 = torch.nn.Conv2d(3, 64, kernel_size=4, stride=2, padding=1) #1x28x28-> 64x14x14
         self.conv2 = torch.nn.Conv2d(64, 128, kernel_size=4, stride=2, padding=1) #64x14x14-> 128x7x7
         self.dense1 = torch.nn.Linear(128*7*7, 1)
 
@@ -92,7 +93,7 @@ class generator(torch.nn.Module):
         self.dense2 = torch.nn.Linear(256, 1024)
         self.dense3 = torch.nn.Linear(1024, 128*7*7)
         self.uconv1 = torch.nn.ConvTranspose2d(128, 64, kernel_size=4, stride=2, padding=1) #128x7x7 -> 64x14x14
-        self.uconv2 = torch.nn.ConvTranspose2d(64, 1, kernel_size=4, stride=2, padding=1) #64x14x14 -> 1x28x28
+        self.uconv2 = torch.nn.ConvTranspose2d(64, 3, kernel_size=4, stride=2, padding=1) #64x14x14 -> 1x28x28
 
         self.bn1 = torch.nn.BatchNorm1d(256)
         self.bn2 = torch.nn.BatchNorm1d(1024)
@@ -107,3 +108,26 @@ class generator(torch.nn.Module):
         x = F.sigmoid(self.uconv2(x))
         return x
 
+# ADJUST VALUES TO GE THE RIGHT SHAPE: (3, 580, 600)
+#%%
+#instantiate model
+d = discriminator()
+g = generator()
+
+#training hyperparameters
+no_epochs = 100
+dlr = 0.0003
+glr = 0.0003
+
+d_optimizer = torch.optim.Adam(d.parameters(), lr=dlr)
+g_optimizer = torch.optim.Adam(g.parameters(), lr=glr)
+
+dcosts = []
+gcosts = []
+plt.ion()
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.set_xlabel('Epoch')
+ax.set_ylabel('Cost')
+ax.set_xlim(0, no_epochs)
+plt.show()
