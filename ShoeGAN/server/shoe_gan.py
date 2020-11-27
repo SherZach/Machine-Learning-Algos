@@ -11,6 +11,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt  
 
+#%%
 
 path = r'C:\Users\gobli\Documents\AI CORE\Machine-Learning-Algos\ShoeGAN\server\data'
 all_files = glob.glob(os.path.join(path, "*.txt")) 
@@ -90,28 +91,33 @@ class Discriminator(torch.nn.Module):
 class Generator(torch.nn.Module):
     def __init__(self):
         super().__init__()
-        self.dense1 = torch.nn.Linear(128, 256)
+        self.x = 7
+        self.dense1 = torch.nn.Linear(400, 256)
         self.dense2 = torch.nn.Linear(256, 1024)
-        self.dense3 = torch.nn.Linear(1024, 128*7*7)
-        self.uconv1 = torch.nn.ConvTranspose2d(128, 64, kernel_size=4, stride=2, padding=1) #128x7x7 -> 64x14x14
-        self.uconv2 = torch.nn.ConvTranspose2d(64, 3, kernel_size=4, stride=2, padding=1) #64x14x14 -> 1x28x28
+        self.dense3 = torch.nn.Linear(1024, 128*self.x**2)
+        self.uconv1 = torch.nn.ConvTranspose2d(128, 64, kernel_size=5, stride=4, padding=1) #128x7x7 -> 64x14x14
+        self.uconv2 = torch.nn.ConvTranspose2d(64, 3, kernel_size=2, stride=4, padding=1) #64x14x14 -> 1x28x28
 
         self.bn1 = torch.nn.BatchNorm1d(256)
         self.bn2 = torch.nn.BatchNorm1d(1024)
-        self.bn3 = torch.nn.BatchNorm1d(128*7*7)
+        self.bn3 = torch.nn.BatchNorm1d(128*self.x**2)
         self.bn4 = torch.nn.BatchNorm2d(64)
     
     def forward(self, x):
         x = F.relu(self.bn1(self.dense1(x)))
         x = F.relu(self.bn2(self.dense2(x)))
-        x = F.relu(self.bn3(self.dense3(x))).view(-1, 128, 7, 7)
+        x = F.relu(self.bn3(self.dense3(x))).view(-1, 128, self.x, self.x)
         x = F.relu(self.bn4(self.uconv1(x)))
         x = F.sigmoid(self.uconv2(x))
         return x
-g = Generator() 
+
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
+# g = Generator().to(device)
+
 batch_size = 16
-latent_vec_size = 
+latent_vec_size = 400
 ran_batch = torch.rand(batch_size, latent_vec_size)
+# ran_batch.to(device)
 fake = g(ran_batch)
 print(fake.shape)
 
