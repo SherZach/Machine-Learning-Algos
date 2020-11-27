@@ -67,15 +67,19 @@ transform = T.ToTensor()
 img_tensors = [transform(img) for img in img_list]
 
 #%%
-# get data loader
-batch_size = 16
-latent_vec_size = 4000
-
-train_loader = DataLoader(img_tensors, shuffle=True, batch_size=batch_size)
+# remove images with 4 channels leaving only those with 3
 for i in range(len(img_tensors)):
     if img_tensors[i].shape==torch.Size([4, 584, 584]):
         print(True)
-        img_tensors[i].pop()  # LOOK AT THIS!!!!!!!!
+        img_tensors.pop(i)
+
+#%%
+# get data loader
+batch_size = 16
+latent_vec_size = 400
+
+train_loader = DataLoader(img_tensors, shuffle=True, batch_size=batch_size)
+
 
 #%%
 # Set up discriminator
@@ -97,7 +101,7 @@ class Discriminator(torch.nn.Module):
 
 # Set up generator
 class Generator(torch.nn.Module):
-    def __init__(self):
+    def __init__(self, latent_vec_size):
         super().__init__()
         self.x = 14
         self.dense1 = torch.nn.Linear(latent_vec_size, 512)
@@ -111,7 +115,7 @@ class Generator(torch.nn.Module):
         self.bn3 = torch.nn.BatchNorm1d(128*self.x**2)
         self.bn4 = torch.nn.BatchNorm2d(64)
     
-    def forward(self, x, latent_vec_size):
+    def forward(self, x):
         x = F.relu(self.bn1(self.dense1(x)))
         x = F.relu(self.bn2(self.dense2(x)))
         x = F.relu(self.bn3(self.dense3(x))).view(-1, 128, self.x, self.x)
@@ -140,20 +144,20 @@ def img_show(tens):
     img = trans(tens)
     img.show()
 
-img_show(fake[4])
+# img_show(fake[4])
 # ADJUST VALUES TO GE THE RIGHT SHAPE: (3, 580, 600)
 #%%
 #instantiate model
 d = Discriminator()
-g = Generator()
+g = Generator(latent_vec_size)
 
 #training hyperparameters
 no_epochs = 100
 dlr = 0.0003
 glr = 0.0003
 
-d_optimizer = torch.optim.Adam(d.parameters(), lr=dlr)
-g_optimizer = torch.optim.Adam(g.parameters(), lr=glr)
+optimiser_d = torch.optim.Adam(d.parameters(), lr=dlr)
+optimiser_g = torch.optim.Adam(g.parameters(), lr=glr)
 
 dcosts = []
 gcosts = []
@@ -164,25 +168,34 @@ ax.set_xlabel('Epoch')
 ax.set_ylabel('Cost')
 ax.set_xlim(0, no_epochs)
 plt.show()
-# %%
+#%%
+def sample(writer=None, device='cpu'):
+    if writer is None:
+        writer = SummaryWriter(log_dir=f'runs/DCGAN/{time()}')
+    z = torch.randn(batch_size, latent_vec_size).to(device)
+    for img in g(z):
+        writer.add_image(f'test', img)
 
+#%%
 # Training loop 
+
+toPILImg = T.ToPILImage()
+
+criterion = torch.nn.BCELoss()
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 device = "cpu"
 
 def train(G, D, epochs=1):
-    optimiser_d = torch.optim.Adam(D.parameters(), lr=0.00001)
-    optimiser_g = torch.optim.Adam(G.parameters(), lr=0.0001)
     writer = SummaryWriter(log_dir=f'runs/DCGAN/{time()}')
     G = G.to(device)
     D = D.to(device)
     batch_idx = 0
     
     for epoch in range(epochs):
-        for idx, (x, _) in enumerate(train_loader):
+        for idx, x in enumerate(train_loader):
             x = x.to(device)
-            print(x)
+            # print(x)
             z = torch.randn(batch_size, latent_vec_size)
             z = z.to(device)
 
@@ -220,6 +233,10 @@ def train(G, D, epochs=1):
                 print('sampling')
                 sample(writer, device)
 
-G = Generator()
-D = Discriminator()
-train(G, D, epochs=10)
+train(g, d, epochs=10)
+
+#%%
+for idx, i in enumerate(train_loader):
+    
+    print(i)
+    break
