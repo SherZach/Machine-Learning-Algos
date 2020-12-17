@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP reportedly executes six people linked to al Houthis in central Yemen; Saudi-led coalition claims intercepting al Houthi missile and drone attacks on kingdom; UN envoy to Yemen meets Iranian foreign minister to discuss cease-fire between al Houthis and internationally recognized Yemeni government
 Horn of Africa: Al Shabaab commander allegedly surrenders to government forces in south-central Somalia; al Shabaab reportedly launches attacks in southern Somalia; ISCA releases video of children reciting Qur’an in front of Islamic State flag 
  Yemen Security Brief:
@@ -20,7 +16,4 @@ The Islamic State’s Central Africa Province (ISCA) released a video on August 24
 [vi] “Jihadist Distributes Video of Children Among Adult Fighters in an IS Central Africa Province Division,” SITE Intelligence Group, August 28, 2020, available by subscription at www.siteintelgroup.com.
  
 Al Shabaab
-Somalia
 al Houthi Movement
-Yemen
-AQAP

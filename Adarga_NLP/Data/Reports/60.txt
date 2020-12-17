@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 This piece is part of a series of al Shabaab leadership profiles.
 Ali Mohamed Rage, also known as Ali Dhere, is al Shabaab’s head spokesman and a member of the group’s Shura Council.[1] He also served as the group’s chairman of Banadir region until February 16, 2011, when Mohamed Hassan Omar Abdurahman replaced him.[2] Neither the United States nor the United Nations has designated him as a terrorist.
 Rage is a member of the Murursade, a sub-clan of the Hawiye clan, which has a strong presence in the Banadir region.[3] He replaced Sheikh Mukhtar Robow, also known as Abu Mansur, as al Shabaab’s top spokesman in May 2009 following a dispute between Rage, Robow, and Ahmed Abdi Godane, also known as Mukhtar Abu Zubair.[4]
@@ -39,6 +35,4 @@ February 24, 2011: Rage appeared with Sheikh Hassan Dahir Aweys at the public ex
 February 21, 2011: Rage claimed responsibility for a car bombing at a police training station in Mogadishu that killed at least eight people and wounded 35 others. He argued the attack was aimed at soldiers “who were being prepared to attack us.” (AP)
 Breuk Bass updated this profile on August 19, 2013.
 Jared Sorhaindo updated this profile on August 3, 2012.
-{{currentView.title}}
-{{nextView.title}}
 Currently receiving 0 of 3 possible notifications for this sort of content.

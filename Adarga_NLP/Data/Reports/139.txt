@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP urges attacks on Charlie Hebdo staff; al Houthis launch drone and ballistic missile attacks in southwestern Saudi Arabia; Hadi government–aligned forces claim killing al Houthi militants in Ma’rib governorate 
 Horn of Africa: Suspected al Shabaab militant conducts suicide attack outside mosque in Lower Jubba region; suspected al Shabaab militant conducts suicide attack in Mogadishu; Ugandan forces resume troop rotations in Somalia
 Yemen Security Brief:
@@ -19,9 +15,5 @@ The Uganda People’s Defense Force resumed deploying troops to the African Union 
 [v] Abdi Guled, “Suicide bomber kills 2, wounds 6 outside mosque in Somalia,” Associated Press, September 11, 2020, https://apnews.com/d2dc342eb91113653d66cb49d45aa018; and Rahma Bayrakdar and Jessica Kocan, “Gulf of Aden Security Review – September 9, 2020,” Critical Threats Project at the American Enterprise Institute, September 9, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-september-9-2020.
 [vi] “UPDF resumes deployments to AMISOM in Somalia,” Hiiraan, September 11, 2020, https://www.hiiraan.com/news4/2020/Sept/179899/updf_resumes_deployments_to_amisom_in_somalia.aspx; “Uganda Restarts Rotating of its Troops in Somalia,” Shabelle Media Network, September 11, 2020, https://www.radioshabelle.com/uganda-restarts-rotating-of-its-troops-in-somalia/; and Muhammad Ramadhito and Jessica Kocan, “Gulf of Aden Security Review – May 4, 2020,” Critical Threats Project at the American Enterprise Institute, May 4, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-may-4-2020.
  
-AMISOM
 Al Shabaab
-Somalia
-AQAP
 al Houthi Movement
-Yemen

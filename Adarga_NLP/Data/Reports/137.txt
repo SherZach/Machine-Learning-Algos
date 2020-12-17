@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP produces chant praising JNIM; al Houthi delegation leaves Sana’a for Switzerland in anticipation of UN-led peace talks with Hadi’s government; Hadi government–aligned forces claim retaking al Houthi–held territory in Sana’a governorate 
 Horn of Africa: Al Shabaab releases video of fighters giving livestock to civilians; al Shabaab publishes photos of SVBIED attack on joint US-Somali convoy in Lower Jubba region; al Shabaab militants kill leader of Somali militia in Hiraan region; suspected al Shabaab militants detonate roadside bomb in Mogadishu 
 Yemen Security Brief:
@@ -21,7 +17,4 @@ Suspected al Shabaab militants detonated a roadside bomb in the Somali capital, 
 [vi] “Anti-al Shabaab militia leader killed in Somalia,” Garowe, September 16, 2020, https://www.garoweonline.com/en/news/somalia/anti-alshabaab-militia-leader-killed-in-somalia; and Samuel Bloebaum and Pamela Makadsi, “Gulf of Aden Security Review – March 5, 2020,” Critical Threats Project at the American Enterprise Institute, March 5, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-march-5-2020.
 [vii] “Deadly blast kills six people in Somalia,” Mareeg, September 15, 2020, https://mareeg.com/deadly-blast-kills-six-people-in-somalia/; and Jessica Kocan, “Gulf of Aden Security Review – September 14, 2020,” Critical Threats Project at the American Enterprise Institute, September 14, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-september-14-2020.
 Al Shabaab
-Somalia
 al Houthi Movement
-AQAP
-Yemen

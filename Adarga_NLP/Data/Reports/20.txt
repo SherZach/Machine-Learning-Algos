@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Notice: The Critical Threats Project frequently cites sources from foreign domains. All such links are identified with an asterisk(*) for the reader's awareness.
 The emergence of new leadership in the “Axis of Resistance” following Qassem Soleimani’s death may undermine the Quds Force’s role in leading the proxy network. Soleimani commanded the Axis of Resistance and reported directly to Supreme Leader Ali Khamenei, circumventing the Iranian armed forces’ chain of command. Leaders outside the Quds Force will likely seek to fill the power vacuum created by Soleimani’s death.
 The new Quds Force commander, Esmail Ghaani, lacks the qualities required to easily replace Soleimani. Ghaani does not have Soleimani’s stature, relationship with Khamenei, experience, or interpersonal connections in the Middle East. Ghaani instead worked in Afghanistan, Africa, and Latin America when he was Quds Force deputy commander and reportedly does not speak fluent Arabic—unlike Soleimani. Ghaani will likely struggle to cultivate the same effective relationships in the region that Soleimani had. Ghaani’s less intimate relationship with Khamenei may allow Ghaani’s military superiors to subordinate him in a way they could not with Soleimani.
@@ -21,12 +17,7 @@ Hejazi was also likely a Quds Force liaison to Lebanese Hezbollah. Iranian media
 Anti-regime protests erupted in several Iranian cities and universities after the IRGC Aerospace Force shot down a Ukrainian airliner on January 8. The protests began on January 11 after mourning ceremonies for the passengers. The protests were primarily concentrated in Tehran and comprised of students. Smaller demonstrations spread to other cities including Esfahan and Karaj. Protesters criticized the IRGC and called for Khamenei’s resignation. The regime deployed the Law Enforcement Forces to suppress the demonstrations.
 The expansion of Iran’s protest movement to include students in major cities could pose an increasingly complex security challenge to the regime. Iran’s last two major protest waves were the Dey Protests in late 2017 and early 2018 and the November 2019 gasoline riots. These anti-regime protests were concentrated in cities’ peripheries and Iran’s border regions and mostly driven by economic grievances. Iran’s working class and economically disenfranchised youth were the main demographics present.
 Forecast: Iranian security forces would struggle to manage simultaneous mass protests in rural areas and cities. The regime will maintain the will and capability to kill protesters, however, and will likely resort to lethal violence rapidly to quash a cross-class protest movement. 
-Iraq
-Basij
 Hassan Nasrallah
-Hezbollah
-IRGC
 Ali Khamenei
 Quds Force
 Qassem Soleimani
-Iran

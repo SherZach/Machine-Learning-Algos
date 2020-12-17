@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP militants reportedly kill al Houthis in al Bayda governorate; Saudi Arabia claims intercepting al Houthi explosive drone launched from al Hudaydah governorate; Hadi government–aligned forces clash with STC-aligned forces in Abyan governorate; Saudi-led coalition forces launch airstrikes on al Houthis in northern Yemen
 Horn of Africa: Al Shabaab claims capturing town in south-central Somalia; ISCA claims attacking Mozambican army posts in northern Mozambique; SNA soldiers attack al Shabaab hideout in southwestern Somalia
 Yemen Security Brief:
@@ -21,7 +17,4 @@ SNA soldiers killed six al Shabaab militants in an attack targeting an al Shabaa
 [6] “ISCAP Claims 50 Casualties Among Mozambican Soldiers in Cabo Delgado,” SITE Intelligence Group, August 6, 2020, available by subscription at www.siteintelgroup.com; Eric Morier-Genoud, Twitter, August 6, 2020, https://twitter.com/emorier/status/1291451754421391360; and Matthew Eady and Samuel Bloebaum, “Gulf of Aden Security Review – July 31, 2020,” Critical Threats Project at the American Enterprise Institute, July 31, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-july-31-2020.
 [7] “Somalia army says kills 6 al-Shabab militants,” Xinhua, August 7, 2020, http://www.xinhuanet.com/english/2020-08/07/c_139273045.htm; and Matthew Eady and Samuel Bloebaum, “Gulf of Aden Security Review – August 3, 2020,” Critical Threats Project at the American Enterprise Institute, August 3, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-august-3-2020.
 Al Shabaab
-Somalia
-AQAP
 al Houthi Movement
-Yemen

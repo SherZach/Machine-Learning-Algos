@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: FBI finds extensive links between AQAP and Pensacola attacker; Hadi government forces claim capturing al Houthi brigade commander in Sana’a governorate; Hadi government forces reportedly shoot down al Houthi drone over Ma’rib city; Hadi government forces clash with al Houthis west of Taiz city; Saudi-led coalition airstrikes target al Houthis in al Bayda governorate 
 Horn of Africa: AFRICOM conducts airstrike against al Shabaab in Middle Jubba region; ISCA kills nearly 30 Christians in DRC; al Shabaab suicide attack in Mudug region kills Mudug's governor; AMISOM foils al Shabaab attack in Lower Jubba region; KDF launches airstrikes at al Shabaab along Kenyan-Somali border
 The Gulf of Aden Security Review will be published on Mondays, Wednesdays, and Fridays going forward.
@@ -27,10 +23,5 @@ The Kenyan Defense Forces (KDF) reportedly launched airstrikes on suspected al S
 [8] “Mudug Governor Killed in al Shabaab Suicide Bomb Attack,” Garowe, May 18, 2020, https://www.garoweonline.com/en/news/puntland/somalia-mudug-governor-killed-in-al-shabaab-suicide-bomb-attack; and “Somalia: Governor killed in suicide bombing claimed by al-Shabaab,” Al Jazeera, May 17, 2020, https://www.aljazeera.com/news/2020/05/somalia-governor-killed-suicide-bombing-claimed-al-shabab-200517150049962.html; and Samuel Bloebaum and Pamela Makadsi, “Gulf of Aden Security Review – April 13, 2020,” Critical Threats Project at the American Enterprise Institute, April 13, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-april-13-2020.
 [9] “AU Forces Repulse al Shabaab Attack Targeting Jubaland Troops, Arrest Several Militants,” Garowe, May 17, 2020, https://www.garoweonline.com/en/news/somalia/au-forces-repulse-al-shabaab-attack-targeting-jubaland-troops-arrest-several-militants; and Samuel Bloebaum and Pamela Makadsi, “Gulf of Aden Security Review – April 20, 2020,” Critical Threats Project at the American Enterprise Institute, April 20, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-april-20-2020.
 [10] “Al-Shabaab suspects destroy Safaricom mast in Wajir,” Mustaqbal Radio, May 17, 2020, https://www.mustaqbalradio.net/al-shabaab-suspects-destroy-safaricom-mast-in-wajir/; “KDF launches airstrikes after Wajir Shabaab attack,” Hiiraan, May 17, 2020, https://www.hiiraan.com/news4/2020/May/178180/kdf_launches_airstrikes_after_wajir_shabaab_attack.aspx; and Samuel Bloebaum and Pamela Makadsi, “Gulf of Aden Security Review – April 13, 2020,” Critical Threats Project at the American Enterprise Institute, April 13, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-april-13-2020.
-Kenya
 al Houthi Movement
-ISIS
 Al Shabaab
-Somalia
-AQAP
-Yemen

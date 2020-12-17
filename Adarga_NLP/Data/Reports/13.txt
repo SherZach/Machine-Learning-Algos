@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: US drone strike likely kills AQAP operative in Yemen; Islamic State in Yemen claims bombing al Houthi vehicle in al Bayda governorate; Hadi government forces claim advancing in Sana’a governorate’s Nihm district; Hadi government aligned forces claim killing al Houthi militants in al Bayda governorate
 Horn of Africa: Al Shabaab attacks Kenyan police in eastern Kenya; SNA arrests suspected al Shabaab militant in central Somalia; unclaimed  explosion targets Somali police in Mogadishu; AFRICOM strike in southern Somalia allegedly inflicts civilian casualties; SNA claims KDF bombed civilians in Gedo region
 The Gulf of Aden Security Review will be published on Mondays, Wednesdays, and Fridays going forward.
@@ -26,9 +22,5 @@ The SNA claimed on May 18 that Kenyan Defense Forces (KDF) “indiscriminately” bo
 [8] “US airstrike raid civilians in Somalia,” Goobjoog, May 19, 2020, http://goobjoog.com/english/us-airstrike-raid-civilians-in-somalia/; Muhammad Ramadhito and Kalissa Azooz, “Gulf of Aden Security Review – May 18, 2020,” Critical Threats Project at the American Enterprise Institute, May 18, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-may-18-2020; and United States Africa Command, “Initial AFRICOM Civilian Casualty Assessment Quarterly Report,” United States Africa Command, April 27, 2020, https://www.africom.mil/civilian-casualty-report-and-allegations.
 [9] Abuga Makori, “Somalia: The SNA threatens revenge on KDF over alleged bombings in Gedo,” Garowe, May 20, 2020, https://www.garoweonline.com/en/news/somalia/somalia-sna-threatens-revenge-on-kdf-over-alleged-bombings-in-gedo; and Jessica Kocan, “Gulf of Aden Security Review – April 28, 2020,” Critical Threats Project at the American Enterprise Institute, April 28, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-april-28-2020.
 Al Shabaab
-Kenya
-Somalia
 al Houthi Movement
-Yemen
 ISIS in Yemen
-AQAP

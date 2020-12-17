@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP militants kill dentist suspected of spying in al Bayda governorate; Saudi-led coalition claims intercepting al Houthi missiles launched toward Saudi Arabia; al Houthis reportedly kill Hadi government military leader in al Jawf governorate; al Houthis claim taking territory from Hadi government forces in Ma’rib governorate
 Horn of Africa: Al Shabaab militants attack hotel in Somali capital; Somali special forces and AMISOM take over al Shabaab-controlled town in southern Somalia; al Shabaab militants attack SNA base and Somali government officials in southwestern Somalia; Mozambican security forces surround Islamist-controlled city in northern Mozambique
  Yemen Security Brief:
@@ -23,7 +19,4 @@ Mozambican security forces surrounded the Islamist militant–controlled city of M
 [7] “Somalia’s education minister survives assassination in Gedo,” Garowe, August 17, 2020, https://www.garoweonline.com/en/news/somalia/somalias-education-minister-survives-assassination-in-gedo; “Four militants killed in clashes in southern Somalia,” Xinhua, August 16, 2020, http://www.xinhuanet.com/english/2020-08/16/c_139294732.htm; and “Shabaab imposes control over SNA base in Mudug to cap bloody week of increased attack frequency and suicide bombing,” SITE Intelligence Group, August 13, 2020, available by subscription at www.siteintelgroup.com.
 [8] Jason Burke, “Mozambique army surrounds port held by Isis-linked insurgents,” The Guardian, August 16, 2020, https://www.theguardian.com/world/2020/aug/16/mozambique-army-surrounds-port-captured-by-isis-linked-insurgents; and Matthew Eady and Samuel Bloebaum, “Gulf of Aden Security Review – August 12, 2020,” Critical Threats Project at the American Enterprise Institute, August 12, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-august-12-2020.
 Al Shabaab
-Somalia
 al Houthi Movement
-AQAP
-Yemen

@@ -1,16 +1,6 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
-
-					authors
-				
 
 Marie Donovan
 
-
-						dated
-					
 
 						{{1519852440 | milliToDateShort}}
 					
@@ -33,7 +23,6 @@ Marie Donovan
 
 
 
-Authors
 
 Marie Donovan
 

@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP claims killing al Houthi commander in al Bayda governorate; Hadhrami Elite Forces shoot live ammunition at protestors in Hadramawt governorate; Hadi government–aligned forces clash with al Houthis in Sana’a governorate
  Horn of Africa: SNA kills al Shabaab militants in Galmudug State; SNA kills al Shabaab militants in Lower Shabelle region; KDF kills al Shabaab militants near Somali-Kenyan border; suspected al Shabaab militants detonate IED in Lower Shabelle region
 Yemen Security Brief:
@@ -20,10 +16,6 @@ Suspected al Shabaab militants detonated a roadside bomb in Afgoi town in Lower 
 [5] “Somalia claims army gains the upper hand in war on Al-Shabaab,” Garowe, September 22, 2020, https://www.garoweonline.com/en/news/somalia/sna-soldiers-declare-victory-against-al-shabaab-in-lower-shabelle; and Rahma Bayrakdar and Jessica Kocan, “Gulf of Aden Security Review – August 28, 2020,” Critical Threats Project at the American Enterprise Institute, August 28, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-august-28-2020.
 [6] “KDF soldier, five al-Shabaab militants killed in Mandera ambush,” Hiiraan, September 22, 2020, https://www.hiiraan.com/news4/2020/Sept/180044/kdf_soldier_five_alshabaab_militants_killed_in_mandera_ambush.aspx; and Jessica Kocan, “Gulf of Aden Security Review – September 14, 2020,” Critical Threats Project at the American Enterprise Institute, September 14, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-september-14-2020.
 [7] Abdirisak M Tuuryare, “Deadly Blast Kills 1, Wounds 2 in Somalia,” Mareeg, September 23, 2020, https://mareeg.com/deadly-blast-kills-1-wounds-2-in-somalia/; and Jessica Kocan, “Gulf of Aden Security Review – September 16, 2020,” Critical Threats Project at the American Enterprise Institute, September 16, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-september-16-2020.
-Kenya
 Al Shabaab
 al Houthi Movement
 Abdu Rabbu Mansour Hadi
-AQAP
-Somalia
-Yemen

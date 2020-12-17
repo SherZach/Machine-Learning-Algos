@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP portrays US as ‘loser’ in aftermath of 9/11 and urges attacks on US interests; Saudi-led coalition launches airstrikes on al Houthi–held Yemeni capital; Hadi government–aligned forces clash with al Houthis in Ma’rib governorate; al Houthis launch ballistic missile and explosive UAVs on Ma’rib governorate
 Horn of Africa: Al Shabaab attacks AMISOM base outside Mogadishu; SNA claims causing al Shabaab causalities in southwestern Somalia; suspected al Shabaab militants cause own causalities while assembling IED in northeastern Kenya 
 Yemen Security Brief:
@@ -21,8 +17,4 @@ Three suspected al Shabaab militants died while attempting to assemble an IED in
 [vi] “Somali army kills six al Shabaab militants near Balad Hawo,” Mareeg, September 12, 2020, https://mareeg.com/somali-army-kills-six-al-shabaab-militants-near-balad-hawo/; and Samuel Bloebaum and Matthew Eady, “Gulf of Aden Security Review – August 17, 2020,” Critical Threats Project at the American Enterprise Institute, August 17, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-august-17-2020.
 [vii] “3 al Shabaab militants blow themselves up while setting up IED,” Hiiraan, September 12, 2020, http://www.hiiraan.com/news4/2020/Sept/179912/3_al_shabaab_militants_blow_themselves_up_while_setting_up_ied.aspx; and “IED kills 3 al Shabaab militants, injures four in Garissa,” Horseed Media, September 12, 2020, https://horseedmedia.net/2020/09/12/ied-kills-3-al-shabaab-militants-injures-four-in-garissa/.
 Al Shabaab
-Kenya
-Somalia
 al Houthi Movement
-AQAP
-Yemen

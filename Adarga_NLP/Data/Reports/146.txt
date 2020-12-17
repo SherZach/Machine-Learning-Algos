@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP official condemns normalization of UAE-Israeli relations; Saudi-led coalition claims intercepting al Houthi explosive UAV in southwestern Saudi Arabia; Saudi King Salman dismisses commander of Saudi-led coalition in Yemen on corruption; President Hadi returns to Saudi Arabia from US medical trip
 Horn of Africa: Al Shabaab reportedly retreats from town in central Somalia; al Shabaab attacks security forces in Lower Shabelle region
 Yemen Security Brief:
@@ -20,7 +16,4 @@ Al Shabaab militants ambushed a military vehicle carrying Ugandan African Union 
 [vi] Abdirisak M Tuuryare, “African Union Troops’ Vehicle Ambushed by Al Shabaab,” Mareeg, September 1, 2020, https://mareeg.com/african-union-troops-vehicle-ambushed-by-al-shabaab/; and “Somalia: UN Honors Ugandan Troops for their Services in Somalia,” All Africa, August 31, 2020, https://allafrica.com/stories/202009010332.html.
 Abdu Rabbu Mansour Hadi
 Al Shabaab
-Somalia
 al Houthi Movement
-AQAP
-Yemen

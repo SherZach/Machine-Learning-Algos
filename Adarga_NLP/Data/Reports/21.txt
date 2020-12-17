@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Notice: The Critical Threats Project frequently cites sources from foreign domains. All such links are identified with an asterisk (*) for the reader's awareness
 The Iranian regime identified weaknesses in its internal security apparatus during the November gasoline riots. The regime conducted a brutal crackdown and blocked the internet to end the anti-government protests. Regime officials seek greater control over Iran’s information space and security services in anticipation of future unrest. Anti-government protests may resume in response to upcoming political events: parliamentary elections and approval of Iran’s next fiscal budget.
 The internet shutdown in November sparked international and domestic criticism of the regime and hurt Iranian businesses. Iran’s rulers will block the internet again if protests reemerge but want to minimize the resulting discontent and cost. Iranian leaders *called for a stronger national intranet after the protests to reduce public reliance on foreign internet services. The regime aims to increase public use of indigenously developed social media platforms and networks to better monitor and control Iran’s information space. However, it is unlikely that the regime could replace foreign internet services in Iran completely.
@@ -30,13 +26,5 @@ Pakistan and Kuwait also mediated between Tehran and Riyadh in recent months. Pa
 A component of Iran’s escalation strategy is to divide the US from its Gulf allies to degrade the US maximum pressure campaign. Iran has attacked Gulf State interests since May to impose a cost for supporting US economic pressure and tried to depict America as an unreliable security partner. Iranian officials also proposed a peace plan to Riyadh that includes a “mutual pledge of nonaggression and cooperation.”
 Switzerland facilitated a prisoner exchange between the US and Iran. The US released an Iranian university professor, Masoud Soleimani, who the US convicted of helping Iran circumvent sanctions in 2018. The regime released Xiyue Wang, an American doctoral student convicted of espionage charges in Iran in 2016. Iran’s SNSC *approved the prisoner swap. Zarif later tweeted that Iran is ready for a “comprehensive prisoner exchange” and that “the ball is in the US’ court.” The prisoner exchange is unlikely to reduce tensions between the US and Iran.
 al Houthi Movement
-Kuwait
-Pakistan
 Ali Khamenei
-Basij
-Yemen
-Iraq
-IRGC
-Oman
-Iran
 Saudi Arabia

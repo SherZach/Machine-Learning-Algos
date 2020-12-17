@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: Leader of the Supreme Council for the Peaceful Southern Movement publicly denounces revised Riyadh Agreement; al Houthis claim shooting down US-made surveillance drone in southwestern Saudi Arabia; Hadi-aligned forces allegedly attack STC forces in Abyan governorate; al Houthis reportedly release six Baha'i prisoners
 Horn of Africa: SNA forces kill al Shabaab militants in southwestern Somalia; unidentified militants kill Somali civil servant in southern Somalia; unidentified suicide bomber kills two civilians in Somali capital; new AMISOM force commander arrives in Somalia
 Yemen Security Brief:
@@ -22,8 +18,5 @@ Burundian Lieutenant General Diomade Ndegeya took over as Force Commander for th
 [6] Mohammed Dhaysane, “Somalia: Grenade attack kills 1, wounds 5,” Anadolu Agency, August 3, 2020, https://www.aa.com.tr/en/africa/somalia-grenade-attack-kills-1-wounds-5/1929952; and Zachary Jaynes and Matthew Eady, “Gulf of Aden Security Review – June 22, 2020,” Critical Threats Project at the American Enterprise Institute, June 22, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-june-22-2020.
 [7] Harun Maruf, Twitter, August 3, 2020, https://twitter.com/HarunMaruf/status/1290252487258066944; and Zachary Jaynes and Jessica Kocan, “Gulf of Aden Security Review – July 6, 2020,” Critical Threats Project at the American Enterprise Institute, July 6, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-june-24-2020.
 [8] “AU force gets new Force Commander in Somalia,” Garowe, August 3, 2020, https://www.garoweonline.com/en/news/somalia/au-force-gets-new-force-commander-in-somalia
-AMISOM
-Somalia
 Al Shabaab
 al Houthi Movement
-Yemen

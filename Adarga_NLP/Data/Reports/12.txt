@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP eulogizes Hurras al Din senior official; Hadi meets with UN Special Envoy to Yemen in Saudi capital; Saudi-led coalition launches airstrikes on al Houthi sites in Sana'a governorate; al Houthis deploy militants to al Bayda governorate; Hadi government forces claim eliminating al Houthi weapons smuggling cell in Ma’rib governorate
  Horn of Africa: Al Shabaab claims targeting Somali president in Mogadishu; SNA repels al Shabaab attack in central Somalia
 Yemen Security Brief:
@@ -21,7 +17,4 @@ SNA forces repelled an al Shabaab attack on a SNA base near Beledweyne town in c
 [7] “SNA troops repulse al Shabaab attack at army base in central Somalia,” Garowe, June 20, 2020, https://www.garoweonline.com/en/news/somalia/sna-troops-repulse-al-shabaab-attack-at-army-base-in-central-somalia; and Matthew Eady and Zachary Jaynes, “Gulf of Aden Security Review – June 17, 2020,” Critical Threats Project at the American Enterprise Institute, June 17, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-june-17-2020.
 Al Shabaab
 Saudi Arabia
-AQAP
 al Houthi Movement
-Yemen
-Somalia

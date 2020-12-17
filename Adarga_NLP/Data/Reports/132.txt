@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: Saudi-led coalition claims destroying al Houthi drone boat in Red Sea; Hadi government–aligned forces claim regaining al Houthi–held territory near al Hazm city; Saudi-led coalition reportedly conducts airstrike in Sa’ada governorate
 Horn of Africa: Suspected al Shabaab militants shoot and injure Kenyan civilians in Mandera County; SNA claims killing al Shabaab militants in Lower Shabelle region; Somali intelligence official reports al Shabaab’s release of kidnapped Cuban doctors
 Yemen Security Brief:
@@ -19,8 +15,5 @@ A Somali intelligence official claimed that al Shabaab released two Cuban doctor
 [5] “Somali National Army Carries Out Operations in Lower Shabelle,” Horseed Media, October 6, 2020, https://horseedmedia.net/2020/10/06/343078/; “10 Al-Shabaab Militants Killed in Southern Somalia,” Xinhuanet, October 6, 2020, http://www.xinhuanet.com/english/2020-10/06/c_139422517.htm; “Somali Military Kills Ten Al-Shabaab Fighters Including Senior Commander in Lower Shabelle Region,” Radio Dalsan, October 6, 2020,   https://www.radiodalsan.com/en/2020/10/06/somali-military-kills-ten-al-shabab-fighters-including-senior-commander-in-lower-shabelle-region/; and Jessica Kocan, “Gulf of Aden Security Review – September 25, 2020,” Critical Threats Project at the American Enterprise Institute, September 25, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-september-28-2020.  
 [6] Abdi Gulad, “Extremists Release 2 Cuban Doctors in Somalia, Officials Say,” Associate Press, October 7, 2020, https://apnews.com/article/kenya-archive-somalia-bb907e8c7bef0666f7d0788d7d993623.
 Al Shabaab
-Kenya
-Somalia
 Abdu Rabbu Mansour Hadi
 al Houthi Movement
-Yemen

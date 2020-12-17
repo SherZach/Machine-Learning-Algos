@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 This piece is part of a series of al Shabaab leadership profiles.
 Sheikh Hassan Dahir Aweys, a former leader of al Shabaab, turned himself in to the Somali government on June 26 following infighting within the group. Aweys was a senior leader in al Shabaab and was on the group’s Shura Council.[1] Previously, Aweys led Hizb al Islam until the group’s merger with al Shabaab in December 2010.[2] Aweys still maintains a large base of support from his influential Hawiye sub-clan and, to some extent, former al Shabaab fighters.[3] The United States Treasury Department’s Office of Foreign Assets Control (OFAC) added him to its Specially Designated Global Terrorist (SDGT) list on November 7, 2001 under the authority of Executive Order 13224.[4] The United Nations designated Aweys as a terrorist under Security Council Resolution 1267 on November 9, 2001, naming him an “individual associated with al Qaeda.”[5]
 Aweys is from the Galgudud region, and is a member of the Ayr, a sub-clan of the Habar Gedir, which in turn is a sub-clan of the Hawiye clan.[6] In the 1990s, he led the military wing of the al Qaeda-linked al Ittihad al Islamiya (the Islamic Union, also known as AIAI).[7] In 1993, al Qaeda operatives allegedly approached Aweys and offered full operational and financial support to AIAI if he would direct attacks against American targets. He reportedly balked at the offer, arguing that “the time is not right to start conducting jihad.”[8] AIAI collapsed in the early 2000s, and the Islamic Courts Union (ICU) replaced it as the principal Somali Islamist group, rising to power in 2006.[9] Aweys served as the spiritual leader within the ICU as the head of the Shura Council, the group’s clerical body.[10] He fled to Asmara, Eritrea when Ethiopian troops drove the ICU out of Mogadishu in January 2007.[11] Aweys subsequently founded the Alliance for the Re-liberation of Somalia (ARS) with Sheikh Sharif Sheikh Ahmed, but their relationship soured when Ahmed began negotiating a peace deal with Ethiopia in Djibouti.[12] Aweys’s faction of the ARS rejected the Djibouti peace accord in June 2008, and he said he would refuse any negotiations outright “until [Somalia] is liberated from [Ethiopian troops].”[13] He returned to Somalia on April 23, 2009 as the leader of the nascent insurgent Islamist group, Hizb al Islam.[14]
@@ -33,6 +29,4 @@ December 27, 2010: Aweys publicly discussed the merger of Hizb al Islam and al S
 Breuk Bass updated this profile on August 19, 2013
 Jared Sorhaindo updated this profile on August 3, 2012.
  
-{{currentView.title}}
-{{nextView.title}}
 Currently receiving 0 of 4 possible notifications for this sort of content.

@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP threatens UAE and Israeli nationals over normalized relations; Saudi-led coalition intercepts al Houthi drone targeting airport in Saudi Arabia; Hadi government–aligned forces attempt to advance toward al Jawf governorate’s capital; al Houthis announce suspending UN and humanitarian flights to Sana’a airport 
 Horn of Africa: AFRICOM confirms death of al Shabaab commander from August airstrike; al Shabaab conducts SVBIED attack targeting US-Somali convoy in Lower Jubba region; ISCA claims inflicting 20 Tanzanian force casualties in northern Mozambique; al Shabaab attacks police station in Middle Shabelle region
  Yemen Security Brief:
@@ -23,7 +19,4 @@ Al Shabaab militants attacked a police station in Balad town in central Somalia’
 [7] “ISCAP Claims Thwarting Enemy Offensive On Mocimboa da Praia, Inflicting 20 Casualties in Tanzanian Army Ranks,” SITE Intelligence Group, September 5, 2020, available by subscription at www.siteintelgroup.com; and Matthew Eady and Samuel Bloebaum, “Gulf of Aden Security Review – August 12, 2020,” Critical Threats Project at the American Enterprise Institute, August 12, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-august-12-2020.
 [8] “Abdirisak M Tuuryare, “Deadly attack on police station kills 15 people in Somalia,” Mareeg, September 8, 2020, https://mareeg.com/deadly-attack-on-police-station-kills-15-people-in-somalia/; “Al-shabaab attack kills 15 in Bal’ad town,” Hiiraan, September 8, 2020, https://www.hiiraan.com/news4/2020/Sept/179860/al_shabaab_attack_kills_15_in_bal_ad_town.aspx; and Zachary Jaynes and Matthew Eady, “Gulf of Aden Security Review – June 15, 2020,” Critical Threats Project at the American Enterprise Institute, June 15, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-june-15-2020.
 Al Shabaab
-Somalia
 al Houthi Movement
-AQAP
-Yemen

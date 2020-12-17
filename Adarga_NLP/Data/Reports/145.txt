@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: Al Houthis claim killing IS in Yemen leader in al Bayda governorate; al Houthi movement leader delivers speech commemorating Islamic New Year; Saudi-led coalition claims intercepting al Houthi explosive UAV and missile launched toward Saudi Arabia; Hadi government–aligned forces clash with al Houthis across multiple governorates
 Horn of Africa: AFRICOM kills al Shabaab explosives expert in southern Somalia; al Shabaab ambushes AU base in central Somalia; Somali security officials arrest prison guards following al Shabaab attack on Mogadishu’s central prison
  Yemen Security Brief:
@@ -22,8 +18,5 @@ Somali security officials arrested twelve prison guards following al Shabaab’s a
 [7] “Guards arrested in Somalia over Mogadishu prison Al-Shabaab raid,” Garowe, August 20, 2020, https://www.garoweonline.com/en/news/somalia/guards-arrested-in-somalia-over-mogadishu-prison-al-shabaab-raid; and “Gunfire heard at Mogadishu Central Prison,” Voice of America Somali, August 10, 2020, https://www.voasomali.com/a/5537548.html.
 Abdul Malik al Houthi
 Al Shabaab
-Somalia
 al Houthi Movement
 ISIS in Yemen
-AQAP
-Yemen

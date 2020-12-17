@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: Unspecified security forces in al Mahrah governorate reportedly impose increased security measures in al Mahrah; Saudi-led coalition allegedly conducts airstrikes on al Houthis in Ma’rib governorate; Twitter suspends al Houthi–run news account; UN Special Envoy to Yemen calls for end to al Houthi and Hadi government–aligned clashes in al Hudaydah governorate
  Horn of Africa: KDF reportedly conducts airstrike targeting civilians in Gedo region; Somali foreign minister denies reports of al Shabaab releasing kidnapped Cuban doctors; unknown attackers target Ethiopian ethnic minorities in western Ethiopia 
 Yemen Security Brief:
@@ -23,8 +19,3 @@ Somalia’s foreign minister denied on October 7 reports that al Shabaab released 
 al Houthi Movement
 Abdu Rabbu Mansour Hadi
 Al Shabaab
-Ethiopia
-Kenya
-Somalia
-AQAP
-Yemen

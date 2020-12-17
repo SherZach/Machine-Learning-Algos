@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: AQAP claims attacks on al Houthis in al Bayda governorate; al Houthi–run court issues death sentence for US and Saudi leaders; Saudi-led coalition forces reportedly intercept al Houthi ballistic missile over western Yemen; al Houthis allegedly kidnap civilians in Dhamar governorate 
  Horn of Africa: Somali special forces claim killing al Shabaab intelligence chief and recapturing al Shabaab–held town in Lower Shabelle region; suspected female al Shabaab militant conducts suicide attack in Mogadishu; Somali government officials announce presidential and parliamentary election dates
 Yemen Security Brief:
@@ -22,7 +18,4 @@ Somali government officials announced dates for Somalia’s presidential and parli
 [7] Abdulkadir Khalif, “Somalia sets election dates, doubles candidates fees,” The East African, October 2, 2020, https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-sets-election-dates-doubles-candidates-fees--2455238; and Matthew Eady and Zachary Jaynes, “Gulf of Aden Security Review – June 29, 2020,” Critical Threats Project at the American Enterprise Institute, June 29, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-june-29-2020#_ftn6.
  
 Al Shabaab
-Somalia
-AQAP
 al Houthi Movement
-Yemen

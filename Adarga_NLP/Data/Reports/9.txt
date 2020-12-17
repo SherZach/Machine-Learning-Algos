@@ -1,7 +1,3 @@
-{{region_detail.text}}
-{{person_detail.text}}
-{{organization_detail.text}}
-{{series.description | limitTo:140}}
 Yemen: Al Houthis claim taking territorial control from AQAP in al Bayda governorate; Islamic State in Yemen claims attacking al Houthis in al Bayda governorate; al Houthis reportedly shoot unidentified military projectile targeting Saudi Arabia; al Houthis claim taking Hadi government–controlled territory in Ma’rib governorate; Saudi-led coalition forces launch airstrikes on al Houthi positions in al Jawf governorate; anti–al Houthi forces clash with al Houthis in Sana’a governorate
 Horn of Africa: Al Shabaab conducts suicide attack near SNA base in south-central Somalia; al Shabaab claims killing administrative official in central Somalia; al Shabaab releases second part of anti-Ethiopian propaganda video series
 Yemen Security Brief:
@@ -25,8 +21,5 @@ Al Shabaab’s al Kata’ib Media Foundation released the second part of a video ser
 [8] “Al-Shabaab claims responsibility for regional minister’s assassination,” Radio Shabelle, August 18, 2020, https://www.radioshabelle.com/al-shabaab-claims-responsibility-for-regional-ministers-assassination/; and Pamela Makadsi and Samuel Bloebaum, “Gulf of Aden Security Review – April 6, 2020,” Critical Threats Project at the American Enterprise Institute, April 6, 2020, https://www.criticalthreats.org/briefs/gulf-of-aden-security-review/gulf-of-aden-security-review-april-6-2020.
 [9] “Shabaab Highlights Attacks on Ethiopian Forces, Including January 2019 Ambush, in 2nd Part of Video Documentary,” SITE Intelligence Group, August 18, 2020, available by subscription at www.siteintelgroup.com; and “Al-Shabaab features commander killed in US drone strike in new video,” Garowe, August 19, 2020, https://www.garoweonline.com/en/news/somalia/al-shabaab-features-late-commander-in-new-controversial-video.
 Al Shabaab
-Somalia
-AQAP
 al Houthi Movement
 ISIS in Yemen
-Yemen
